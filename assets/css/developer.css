@@ -1,0 +1,161 @@
+/*!
+Project: Beboundless Trip
+Developer: Sayan Dey
+Developer URI: https://sayandey.dev
+Description: Custom styles created by developer.
+*/
+
+::-webkit-scrollbar {
+    width: 0.65rem;
+    height: 0.75rem;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #1F5202;
+}
+
+html body img {
+    display: inline-block;
+}
+
+/* Header Email icon colour */
+.c-border-btn span {
+    color: #fff;
+}
+
+/* Header active menu colour */
+.navbar-nav>.current-menu-item>a {
+    background-color: #ff9800;
+}
+
+/* Contact Page Button */
+.cn-contact-form .wpcf7 .c-green-btn {
+    background: #297200;
+    color: #fff;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    transition: 0.5s;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+
+.cn-contact-form .wpcf7 .c-green-btn:hover {
+    background: #ff9800;
+    color: #fff;
+}
+
+/* Footer Form textarea */
+.c-footer-form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.c-footer-form .wpcf7-spinner {
+    display: none;
+}
+
+/* Sidebar enquiry form */
+.c-hotel-enquery-in .wpcf7 textarea {
+    height: 150px;
+    resize: none;
+}
+
+/* Single Tour post type */
+.c-tour-details {
+    padding: 80px 0;
+}
+
+.c-tour-details h3,
+.c-tour-details h4,
+.c-tour-details h5 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.c-tour-con h2,
+.c-price-con h2,
+.c-tour-details-list h2,
+.cp-hotel-gallery h2 {
+    font-size: 24px;
+    color: #297200;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.c-tour-details-list h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #297200;
+}
+
+.c-featured-img img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.cp-hotel-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
+
+.cp-hotel-video iframe,
+.cp-hotel-video object,
+.cp-hotel-video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Tour Quick Info */
+.cp-quickinfo-tr {
+    display: grid;
+    grid-template-columns: 0.65fr 1fr;
+}
+
+/* Hotel post type */
+.cp-hotel-feature h2,
+.cp-hotel-con h2 {
+    font-size: 24px;
+    color: #297200;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+
+/* Hotel features */
+.c-hotel-ditales-con .cp-hotel-feature ul,
+.c-tour-details-con .cp-hotel-feature ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+/* Home Slider */
+.c-banner-con h2 {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+/* Single blog featured image */
+.post-top-featured {
+    margin: 0 auto;
+    display: block;
+}
+
+/* Home page blog slider button */
+.c-blog-w .c-blog-list button {
+    box-shadow: none;
+}

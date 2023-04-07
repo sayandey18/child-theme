@@ -1,0 +1,276 @@
+.c-banner-in img {
+    width: 100%
+}
+
+@media only screen and (max-width:1430px) {
+    .c-haeder-w .navbar .navbar-nav>li>a {
+        font-size: 15px;
+    }
+
+    .othr-demostic-tour h3 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:1199px) {
+    .c-haeder-w .navbar .navbar-nav>li>a {
+        padding: 15px;
+    }
+
+    .c-haeder-bottom {
+        bottom: -56px;
+    }
+
+    .c-inner-banner-con h1 {
+        font-size: 50px;
+    }
+
+    .c-hotel-enquery-w {
+        padding: 0px;
+    }
+
+    .c-hotel-ditales,
+    .cp-tours-w,
+    .cp-hotel-w {
+        padding: 50px 0 30px;
+    }
+
+    .c-footer-nav {
+        padding: 0px;
+    }
+
+    .c-banner-w .slick-dots {
+        bottom: 20px;
+    }
+
+    .c-offer-w {
+        margin-top: 10px;
+    }
+
+    .c-tour-w {
+        padding: 40px 0;
+    }
+
+    .c-tour-w:after {
+        display: none;
+    }
+
+    .c-blog-list .slick-next,
+    .c-blog-list .slick-prev {
+        display: none !important;
+    }
+
+    .c-banner-w:after {
+        display: none;
+    }
+
+    .c-tour-w {
+        padding-top: 0px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .c-logo-w {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .c-header-btn-list ul {
+        justify-content: center;
+    }
+
+    .c-haeder-bottom {
+        position: static;
+        padding: 15px 0;
+    }
+
+    .c-haeder-bottom-in:after {
+        display: none;
+    }
+
+    .c-haeder-bottom .navbar-toggler {
+        display: block;
+        color: #fff;
+        font-size: 20px;
+        padding: 15px;
+        width: 100%;
+    }
+
+    .c-haeder-bottom .navbar-collapse {
+        background: #ff9800;
+    }
+
+    .c-haeder-w .navbar .navbar-nav>li>a {
+        display: block;
+        border: none;
+        border-bottom: 1px solid #fff;
+    }
+
+    .c-haeder-w .navbar .navbar-nav>li>a:hover,
+    .c-haeder-w .navbar .navbar-nav>li.active>a {
+        background: #000;
+    }
+
+    .c-footer-midel .col-lg-4 {
+        margin-bottom: 20px;
+    }
+
+    .cp-hotel-gallery-img img {
+        width: 100%;
+    }
+
+    .cn-contact-form {
+        padding: 20px;
+    }
+
+    .cn-contact-form h2 {
+        font-size: 40px;
+    }
+
+    .cn-contact-info {
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    .cn-contact-w {
+        padding: 40px 0;
+    }
+
+    .c-haeder-top .col-lg-3,
+    .c-haeder-top .col-lg-9 {
+        width: 100%
+    }
+
+    .c-banner-con h1 {
+        font-size: 30px;
+    }
+
+    .c-tour-list-box {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .c-header-btn-list ul li {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .c-header-btn-list ul {
+        display: block;
+    }
+
+    .c-header-btn-list ul li,
+    .c-header-btn-list ul li a {
+        display: block;
+    }
+
+    .c-inner-banner-w img {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .c-inner-banner-con h1 {
+        font-size: 30px;
+    }
+
+    .c-hotel-video iframe {
+        height: 300px !important;
+    }
+
+    .c-footer-social {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .c-footer-social ul {
+        justify-content: center;
+    }
+
+    .c-footer-text p {
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .c-banner-con h1 {
+        font-size: 15px;
+        margin-bottom: 6px;
+    }
+
+    .c-banner-con p {
+        font-size: 13px;
+        line-height: normal;
+    }
+
+    .c-banner-w .slick-dots button {
+        width: 5px;
+        height: 5px;
+    }
+
+    .c-banner-w .slick-dots {
+        bottom: 5px;
+    }
+
+    .c-tour-w h2 {
+        font-size: 30px;
+    }
+
+    .c-offer-w {
+        margin-bottom: 0px;
+        padding-bottom: 20px;
+    }
+
+    .c-internayinal-w {
+        padding: 50px 0;
+    }
+
+    .c-infrastructural-w {
+        padding: 40px 0;
+    }
+
+    .c-internayinal-w:before {
+        display: none;
+    }
+
+    .c-infrastructural-w {
+        padding: 40px 0;
+    }
+
+    .c-infrastructural-in {
+        display: block;
+    }
+
+    .c-infrastructural-con,
+    .c-infrastructural-img {
+        width: 100%;
+    }
+
+    .c-other-hotel h2 {
+        font-size: 30px;
+    }
+
+    .c-blog-list {
+        padding: 0px;
+    }
+
+    .c-footer-form {
+        padding: 0px;
+    }
+
+    .c-footer-nav-in {
+        padding-bottom: 0px;
+    }
+
+    .c-footer-contact {
+        padding: 0px;
+        padding-top: 10px;
+    }
+
+    .c-footer-midel {
+        padding-bottom: 0px;
+    }
+
+    .cp-blog-list {
+        padding-right: 0px;
+    }
+}
